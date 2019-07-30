@@ -1,0 +1,198 @@
+.main{
+	margin: 0 auto;
+	width: 1350px;
+}
+.logo{
+	margin: 10px 0;
+}
+.logo span{
+    display: inline-block;
+    float: right;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    background: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.logo h2{
+	font-size: 20px;
+	margin-right: 150px;
+	padding-bottom: 15px;
+	margin-left: 100px;
+	border-bottom: 2px solid black;
+}
+
+.cartList{
+    overflow: hidden;
+    margin-top: 30px;
+}
+.cartList ul{
+    clear: both;
+    width: 1098px;
+    overflow: hidden;
+    border-bottom: 1px #c6c6c6 dashed;
+     border: 1px #c6c6c6 solid;
+    padding-top: 6px;
+    margin-left: 100px;
+}
+.cartList ul li img{
+	width: 60px;
+}
+.cartList ul li{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+
+}
+.cartList ul li input[name="price"]{
+    border: none;
+    background: transparent;
+    width: 45px;
+    text-align: center;
+    margin-top: 30px;
+}
+.cartList ul li input[name="amount"]{
+    width: 45px;
+    text-align: center;
+    border: 1px solid #999999;
+    border-left: none;
+    border-right: none;
+    height: 21px;
+    margin-top: 30px;
+}
+.cartList ul li input[name="minus"],.cartList ul li input[name="plus"]{
+    height: 25px;
+    border: 1px #999999 solid;
+    width: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+.cartList ul li:nth-of-type(1){
+	width: 130px;
+	margin-left: 30px;
+	}
+.cartList ul li:nth-of-type(2){
+	width: 200px;
+	margin-left: 30px;
+	}
+.cartList ul li:nth-of-type(3){
+	width: 130px;
+	margin-left: 30px;
+	}
+.cartList ul li:nth-of-type(4){
+	width: 100px;
+	margin-left: 30px;	
+	}
+.cartList ul li:nth-of-type(5){
+	width: 130px;
+	margin-left: 30px;
+	margin-right: 40px;
+	}
+	#price1{
+		margin-top: 30px;
+	}
+	#price0{
+		margin-top: 30px;
+	}
+	#price2{
+		margin-top: 30px;
+	}
+.cartList ul li p{
+	cursor: pointer;
+}
+.cartList ol{
+    float: right;
+    clear: both;
+    margin-right: 150px;
+}
+
+
+.cartList ol li:nth-of-type(2) span{
+	font-size: 16px;
+	background-color: red;
+	padding: 10px 30px;
+	float: right;
+	cursor: pointer;
+	color: white;
+
+}
+.cartList ol li:nth-of-type(2) span:hover{
+	background:linear-gradient(to right,yellow,pink);
+	color: white; 	
+}
+.aaa1{
+	margin-left: 100px;
+}
+#totalPrice{
+	color: red;
+	font-size: 16px;
+	padding: 10px;
+}
+
+
+
+.wx5{
+	float: left;
+	width: 1009px;
+	height: 279px;
+	margin-left: 160px;
+	margin-top: 30px;
+	background:#f7f7f7;
+}
+.wx span img{
+	vertical-align: middle;
+}
+.duo{
+	margin-left: 60px;
+}
+.dv1{
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.dv2{
+	float: left;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.dv3{
+	float: left;
+	margin-left: 160px;
+	margin-top: 30px;
+}
+.dv4{
+	float: left;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.dv5{
+	float: left;
+	margin-left: 160px;
+	margin-top: 30px;
+}
+.dv5 a{
+	text-decoration: none;
+}
+.da{
+	font-size: 14px;
+	font-weight: bold;
+}
+.pu{
+	margin-top: 180px;
+	background: url(../img/pu.gif) repeat-x;
+}
+.hh{
+	float: left;
+	margin-left: 600px;
+	margin-top: -60px;
+}

@@ -1,0 +1,130 @@
+.main{
+	float: left;
+	width:1510px;
+	height:1000px;
+}
+.zc1{
+	float: left;
+	margin-left: 300px;
+}
+.zc2{
+	float: left;
+	margin-left: 200px;
+	margin-top: 80px;
+	width: 1238px;
+	height: 514px;
+	border: 1px solid #e6e6e6;
+}
+.zc3{
+	float: left;
+	margin-left: 189px;
+	margin-top: -48px;
+	background: url(../img/zc_2.gif) repeat-x;
+	width: 190px;
+	height: 47px;
+}
+.zc3 span{
+	float: left;
+	margin-left: 60px;
+	margin-top: 10px;
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+}
+.ipt1{
+	float: left;
+	margin-left: 200px;
+	margin-top: 30px;
+	
+}
+.ipt_1{
+	width: 338px;
+	height: 44px;
+}
+.ipt2{
+	float: left;
+	margin-left: -405px;
+	margin-top: 100px;
+}
+.ipt_2{
+	width: 338px;
+	height: 44px;
+}
+.ipt3{
+	float: left;
+	margin-left: -405px;
+	margin-top: 170px;
+}
+.ipt_3{
+	width: 338px;
+	height: 44px;
+}
+.ipt4{
+	float: left;
+	margin-left: -430px;
+	margin-top: 240px;
+}
+.ipt_4{
+	width: 338px;
+	height: 44px;
+}
+.ipt5{
+	float: left;
+	margin-left: -340px;
+	margin-top: 330px;
+}
+.ipt5 a{
+	text-decoration: none;
+	color: blue;
+}
+.int{
+	float: left;
+	margin-left: -360px;
+	margin-top: 380px;
+	width: 337px;
+	height: 58px;
+	background: red;
+	color: white;
+	font-size: 20px;
+}
+.ca{
+	float: left;
+	margin-left: -360px;
+	margin-top: 450px;
+	color: red;
+}
+.wx{
+	float: right;
+	margin-top: 30px;
+}
+.pcc{
+	float: left;
+	margin-top: 30px;
+	margin-left: 300px;
+}
+.mf{
+	float: right;
+	margin-right: 100px;
+	margin-top: -20px;
+}
+.mf a{
+	text-decoration: none;
+	color: blue;
+}
+
+#Divyonghu{
+	margin-left: 40px;
+	color: red;
+}
+#Divmima1{
+	margin-left: 70px;
+	color: red;
+}
+#Divmima2{
+	margin-left: 70px;
+	color: red;
+}
+#Divshoujihao{
+	margin-left: 100px;
+	color: red;
+}

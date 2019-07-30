@@ -1,0 +1,305 @@
+.main{
+	float: left;
+	margin:  auto;
+	width:1200px;
+	height: 1000px;
+}
+.daohang{
+	float: left;
+	width: 1500px;
+	height: 29px;
+	background:#f8f8f8;
+}
+.daohang ul li{
+	float: right;
+	margin-right: 30px;
+	margin-top: -10px;
+	display: inline-block;
+}
+.topDown{
+	position: absolute;
+	right: 20px;
+	top: 35px;
+	width: 100px;
+	height: 80px;
+	line-height: 35px;
+	border: 1px solid #f8f8f8;
+	
+	
+	display: none;
+}
+.span{
+	margin-left: 300px;
+}
+.daohang a{
+	text-decoration: none;
+}
+.red{
+	color: red;
+}
+.jl{
+	margin-left: 400px;
+}
+.lo{
+	float: left;
+	margin-left: 300px;
+	margin-top: 30px;
+}
+.parent1 {
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+.search1 {
+    width: 400px;
+    height: 50px;
+/*    border-radius: 18px;*/
+   /* outline: none;*/
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    position: absolute;
+}
+.ss{
+	float: left;
+	margin-left: 406px;
+	margin-top: 30px;
+}
+.gy1{
+	margin-left: 300px;
+	margin-top: 170px;
+	width: 210px;
+	height: 41px;
+	background: #1369c0;
+}
+.gy1:hover{
+	display: block;
+}
+.erji{
+	float: left;
+	text-indent: 2em;
+	margin-top: 5px;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+.erji a{
+	text-decoration: none;
+	color: white;
+}
+.erjis{
+	position: absolute;
+	left:300px;
+	top:213px;
+	width: 210px;
+	height: 380px;
+	color: white;
+	background: #1369c0;
+	font-size: 14px;
+	display: none;
+}
+.gy2 ul {
+	font-size: 14px;
+	margin-left: 520px;
+	display:inline-block;
+	list-style: none;
+}
+.gy2 a{
+	text-decoration: none;
+}
+.gy2 a:hover{
+	color: red;
+}
+.gy2 li{
+	float: left;
+	margin-top: -19px;
+	margin-left: 50px;
+	display: inline-block;
+}
+.pu{
+	width: 1519px;
+	background: url(../img/pu.gif)repeat-x;
+}
+.gy3{
+	margin-left: 300px;
+}
+.ima{
+	margin-left: 300px;
+}
+.l1{
+	float: left;
+	width: 200px;
+	height: 28;
+	background:#0069b7;
+	text-align: center;
+	color: white;
+	margin-left: 300px;
+	margin-top: -4px;
+}
+.l2{
+	float: left;
+	width: 200px;
+	height: 28;
+	background:#025da3;
+	text-align: center;
+	color: white;
+	margin-left: 0px;
+	margin-top: -4px;
+}
+
+.l3{
+	float: left;
+	width: 200px;
+	height: 28;
+	background:#035495;
+	text-align: center;
+	color: white;
+	margin-left: ;
+	margin-top: -4px;
+}
+
+.l4{
+	float: left;
+	width: 200px;
+	height: 28;
+	background:#044d84;
+	text-align: center;
+	color: white;
+	margin-left: ;
+	margin-top: -4px;
+}
+
+.l5{
+	float: left;
+	width: 200px;
+	height: 28;
+	background:#004475;
+	text-align: center;
+	color: white;
+	margin-left: 1100px;
+	margin-top: -16px;
+}
+.l6{
+	float: left;
+	margin-left: 300px;
+	width: 1000px;
+	height: 120px;
+	background:#e5e5e5 ;
+}
+.l6_1{
+	float: left;
+	margin-left: 75px;
+	margin-top: 10px;
+}
+.l6_2{
+	float: left;
+	margin-left: 130px;
+	margin-top: 10px;
+}
+.l6_3{
+	float: left;
+	margin-left: 140px;
+	margin-top: 10px;
+}
+.l6_4{
+	float: left;
+	margin-left: 140px;
+	margin-top: 10px;
+}.l6_5{
+	float: left;
+	margin-left: 120px;
+	margin-top: 10px;
+}
+.gy_4{
+	float: left;
+	margin-left: 300px;
+	margin-top: 10px;
+	width: 1000px;
+	height: 41px;
+	background:#e5e5e5;
+}
+.gy_4 span{
+	color:#94d0ee;
+	line-height: 41px;
+	font-size: 18px;
+}
+.gy_5{
+	float: left;
+	margin-left: 300px;
+	margin-top: px;
+	width: 998px;
+	height: 322px;
+	border: 1px solid #d6d6d6;
+}
+.suo{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-indent: 1em;
+}
+.di{
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-indent: 1em;
+}
+.wx5{
+	float: left;
+	width: 1009px;
+	height: 279px;
+	margin-left: 300px;
+	margin-top: 30px;
+	background:#f7f7f7;
+}
+.wx span img{
+	vertical-align: middle;
+}
+.duo{
+	margin-left: 60px;
+}
+.dv1{
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.dv2{
+	float: left;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.dv3{
+	float: left;
+	margin-left: 160px;
+	margin-top: 30px;
+}
+.dv4{
+	float: left;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.dv5{
+	float: left;
+	margin-left: 160px;
+	margin-top: 30px;
+}
+.dv5 a{
+	text-decoration: none;
+}
+.da{
+	font-size: 14px;
+	font-weight: bold;
+}
+.puc{
+	margin-top: 180px;
+	background: url(../img/pu.gif) repeat-x;
+}
+.hh{
+	float: left;
+	margin-left: 600px;
+	margin-top: -60px;
+}
+.fan{
+	float: left;
+	margin-top: -10px;
+	margin-left: 30px;
+}

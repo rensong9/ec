@@ -1,0 +1,109 @@
+.main{
+	width: 1534px;
+	height: 595px;
+	background: url(../img/bj.gif) repeat-x;
+	margin-top: 0px;
+}
+.logo img{
+	margin-left: 300px;
+	vertical-align: middle;
+}
+.p{
+	font-size: 24px;
+	font-weight: bold;
+}
+.gg{
+	margin-left: 300px;
+	margin-top: 100px;
+}
+.bd{
+	float: right;
+	margin-top: 80px;
+	margin-right: 200px;
+	width: 434px;
+	height: 461px;
+	border: 1px solid #fcfcfc;
+	background: #ffffff;
+}
+.p2{
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 30px;
+}
+.a1{
+	float: left;
+	margin-left: 25px;
+	width: 383px;
+	height: 33px;
+	border: 1px solid #ffe57d;
+	background:#fff6d2;
+}
+.a2{
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+	width: 383px;
+	height: 47px;
+	border: 1px solid #bdbdbd;
+}
+.a3{
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+	width: 383px;
+	height: 47px;
+	border: 1px solid #bdbdbd;
+}
+.a4{
+	float: left;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+.a5{
+	float: left;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+.t1{
+	float: left;
+	margin-left: 30px;
+	margin-top: 6px;
+}
+.sp{
+	margin-left: 280px;
+}
+.sp1{
+	margin-left: 260px;
+}
+a{
+	text-decoration: none;
+	color: red;
+}
+.int{
+	width: 383px;
+	height: 43px;
+	margin-top: 20px;
+	background: red;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.p3{
+	text-indent: 1em;
+	line-height: 10px;
+}
+.a2 input{
+	float: left;
+	width: 332px;
+	height: 44px;
+	margin-top:-51px;
+	margin-left: 48px;
+}
+.a3 input{
+	float: left;
+	width: 332px;
+	height: 44px;
+	margin-top:-51px;
+	margin-left: 48px;
+}
+

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<link rel="stylesheet" href="css/zhuce.css" />
+		<script type="text/javascript" src="js/jquery1.10.2.min.js" ></script>
+	</head>
+	<body>
+		<div class="main">
+		<div class="zc1">
+			<img src="img/logo.gif" />
+		</div>
+		
+		<div class="zc2">
+			<div class="zc3">
+				<span>个人用户</span>
+		</div>
+		<div class="mf">
+			<span>我已注册,现在就<a href="denglu.html">登陆</a></span>
+			</div>
+			<div>
+				<form method="get" action="denglu.html" id="myform" name="myform">
+			<div  class="ipt1">
+			用户名:<input type="text" name=""class="ipt_1" id="yonghu" />
+			<div id="Divyonghu"></div>
+		</div>
+		<div class="ipt2">
+			请设置密码:<input type="text" name="" class="ipt_2" id="mima1"/>
+			<div id="Divmima1"></div>
+		</div>
+		<div class="ipt3">
+			请确认密码:<input type="text" name=""  value=""class="ipt_3" id="mima2" />
+			<div id="Divmima2"></div>
+		</div>
+		<div class="ipt4">
+			请输入手机号码:<input type="text" name=""value=""class="ipt_4" id="shoujihao"/>
+			<div id="Divshoujihao"></div>
+		</div>
+		<div class="ipt5">
+			<input type="checkbox" name="" id="" value="" /><span>我已阅读并同意<a href="">《万翔用户注册协议》&nbsp;&nbsp;《翔业尊享会会员章程》</a></span>
+		</div>
+		<div>
+			<input type="submit" name="" value="提交" class="int"  />
+			<p class="ca">注册成功的会员,可关注翔业尊享会微信公众号,获悉更多会员权益</p>
+		</div>
+		</form>
+		</div>
+		<div class="wx"><img src="img/zc_1.gif" /></div>
+		</div>
+		<div class="pcc">
+			<p>版权信息:Copyright&copy;2012-2016万翔商场&nbsp;版权所有TCP/IP备案号:闽ICP06004154号&nbsp;闽公网安备:35020602000664号</p>
+		</div>
+		</div>
+	</body>
+	<script>
+		$(document).ready(function(){
+//			$("#myform").submit(function(){
+//				var user=$("#yonghu").val();
+//				if(user==""){
+//					alert("用户名不能为空");
+//					return false;
+//				}
+//				var pwd=$("#mima1").val();
+//				if(pwd==""){
+//					alert("密码不能为空");
+//					return false;
+//				}
+//				if(pwd.length<6){
+//					alert("密码长度得大于6");
+//					return false;
+//				}
+//				var pwd2=$("#mima2").val();
+//				if(pwd!=pwd2){
+//					alert("两次密码不一致");
+//					return false;
+//				}
+//				var sj=$("#shoujihao").val();
+//				if(sj==""){
+//					alert("手机不能为空");
+//					return false;
+//				}
+//				if(sj.length<11){
+//					alert("手机长度得大于11");
+//					return false;
+//				}
+//				for(var i=0;i<sj.length;i++){
+//					var j=sj.substring(i,i+1);
+//					if(isNaN(j)==false){
+//						alert("手机号码不能包含数字");
+//						return false;
+//					}
+//				}
+//				return true;
+//			})
+			$("#yonghu").blur(checkUser);
+			$("#mima1").blur(checkPass);
+			$("#mima2").blur(checkRePass);
+			$("#shoujihao").blur(checkShouJi);
+				$("#myform").submit(function(){
+					var flag=true;
+					if(!checkUser()) flag=false;
+					if(!checkPass()) flag=false;
+					if(!checkRePass()) flag=false;
+					if(!checkShouJi()) flag=false;
+					return flag;
+				})
+		})
+		function checkPass(){
+			var $mima1=$("#mima1");
+			var $divID=$("#Divmima1");
+			$divID.html("");
+			if($mima1.val()==""){
+				$divID.html("填写哈密码~亲");
+				return false;
+			}
+			if($mima1.val().length<6){
+				$divID.html("起码也得有6位吧?");
+				return false;
+			}
+			return true;
+		}
+		function checkRePass(){
+			var $mima1=$("#mima1");
+			var $mima2=$("#mima2");
+			var $divID=$("#Divmima2");
+			$divID.html("");
+			if($mima1.val()!=$mima2.val()){
+				$divID.html("咋回事啊?和第一次输出的有点不一样");
+				return false;
+			}
+			return true;
+		}
+		function checkUser(){
+			var $yonghu=$("#yonghu");
+			var $divID=$("#Divyonghu");
+			$divID.html("");
+			if($yonghu.val()==""){
+				$divID.html("给自己取个响当当的名呗?");
+				return false;
+			}
+			return true;
+		}
+		function checkShouJi(){
+			var shoujihao=$("#shoujihao");
+			var divID=$("#Divshoujihao");
+			divID.html("");
+			if(shoujihao.val()==""){
+				divID.html("输入手机号");
+				return false;
+			}
+			if(shoujihao.val().length<11){
+				divID.html("请输入十一位的手机号");
+				return false;
+			}
+			return true;
+		}
+	</script>
+</html>

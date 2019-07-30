@@ -1,0 +1,130 @@
+-
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/gouwuche.css"/>
+		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<script type="text/javascript" src="js/jquery-1.12.4.js" ></script>
+		<script type="text/javascript" src="js/gouwuche.js" ></script>
+	</head>
+	<body>
+		<div class="main">
+			<section>
+				<div class="content">
+			    <div class="logo">
+			    </div>
+			   <img src="img/logo.gif" class="aaa1"/>
+			    <div class="cartList" id="cartList">
+			        <ul>
+			            <li>商品图片</li>
+			            <li>商品信息</li>
+			            <li>单价</li>
+			            <li>数量</li>
+			            <li>总价</li>
+			            <li>操作</li>
+			        </ul>
+			        <ul id="del1">
+			            <li><img src="img/cat_3.gif" ></li>
+			            <li>华为(HUAWEI)P30&nbsp;8GB+128GB&nbsp;全网通版<br />(珠光贝母)</li>
+			            <li>¥<input type="text" name="price" value="4088"></li>
+			            <li><input type="button" name="minus" value="-" onclick="minus(0);"><input type="text" name="amount" value="1"><input type="button" name="plus" value="+" onclick="plus(0);"></li>
+			            <li id="price0">¥4088</li>
+			            <li><p  onclick="collection();">移入收藏</p><p onclick="del1()">删除</p></li>
+			        </ul>
+			        <ul id="del2">
+			            <li><img src="img/cat_1.gif"></li>
+			            <li>华为(HUAWEI)P30&nbsp;8GB+128GB&nbsp;全网通版<br />(极光色)</li>
+			            <li>¥<input type="text" name="price" value="4099"></li>
+			            <li><input type="button" name="minus" value="-" onclick="minus(1);"><input type="text" name="amount" value="1"><input type="button" name="plus" value="+" onclick="plus(1);"></li>
+			            <li id="price1">¥4099</li>
+			            <li><p  onclick="collection();">移入收藏</p><p onclick="del2()">删除</p></li>
+			        </ul>
+			         <ul id="del3">
+			            <li><img src="img/cat_4.gif"></li>
+			            <li>苹果(APPLE)&nbsp;iPhone&nbsp;XS&nbsp;Max&nbsp;256GB&nbsp;深空灰<br />色&nbsp;移动联通电信4G手机</li>
+			            <li>¥<input type="text" name="price" value="8999"></li>
+			            <li><input type="button" name="minus" value="-" onclick="minus(2);"><input type="text" name="amount" value="1"><input type="button" name="plus" value="+" onclick="plus(2);"></li>
+			            <li id="price2">¥8999</li>
+			            <li><p  onclick="collection();">移入收藏</p><p onclick="del3()">删除</p></li>
+			        </ul>
+			        <ol>
+			            <li id="totalPrice">（已享受免运费）商品总计：<span id="zongjia"></span></li>
+			            <li><span onclick="total1()">结 算</span></li>
+			        </ol>
+			    </div>
+			</div>
+			</section>
+			<div class="wx5">
+			<span class="duo"></span>
+			<span><img src="img/cat_5.gif"/>&nbsp;七天无理由退货</span>
+			<span class="duo"></span>
+			<span><img src="img/cat_6.gif"/>&nbsp;100%质量保证</span>
+			<span class="duo"></span>
+			<span><img src="img/cat_7.gif"/>&nbsp;福建满88免运费</span>
+			<span class="duo"></span>
+			<span><img src="img/cat_8.gif"/>&nbsp;全国满198减4公斤</span>
+			<span class="duo"></span>
+			<span><img src="img/cat_9.gif"/>&nbsp;服务中心</span>
+			<div class="dv1">
+			<ul>
+				<li class="da">新手指南</li><br />
+				<li>购物流程演示</li>
+				<li>会员介绍</li>
+				<li>订单管理</li>
+				<li>积分与优惠券</li>
+				<li>大家电购买提</li>
+			</ul>
+			</div>
+			<div class="dv2">
+			<ul>
+				<li class="da">如何支付</li><br />
+				<li>在线支付</li>
+				<li>汇款,转账</li>
+				<li>货到付款</li>
+				<li>福利点</li>
+				<li>发票制度</li>
+			</ul>
+			</div>
+			<div class="dv3">
+			<ul>
+				<li class="da">如何配送</li><br />
+				<li>配送及收费</li>
+				<li>空运违禁说</li>
+				<li>货物签收提醒</li>
+			</ul>
+			</div>
+			<div class="dv4">
+			<ul>
+				<li class="da">售后服务</li><br />
+				<li>售后服务承诺</li>
+				<li>退换货政策</li>
+				<li>退换货流程</li>
+				<li>退款说明</li>
+				<li>安装,维保</li>
+			</ul>
+			</div>
+			<div class="dv5">
+			<ul>
+				<li class="da">客服中心</li><br />
+				<li>翔会章程</li>
+				<li><a href="guanyu.html">关于我们</a></li>
+				<li>服务咨询</li>
+				<li>投诉建议</li>
+				<li>服务条款</li>
+			</ul>
+			</div>
+			<div class="pu">
+				<img src="img/pu.gif" />
+			</div>
+			<div>
+				<p>版权信息:Copyright&copy;2012-2016万翔商场<br />版权所有TCP/IP备案号:闽ICP06004154号&nbsp;闽公网安备:35020602000664号</p>
+			</div>
+			<div class="hh">
+				<img src="img/hh.gif" />
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
